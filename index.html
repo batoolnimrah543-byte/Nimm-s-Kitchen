@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Nimm's Kitchen serves fresh homemade comfort food, noodles, khowsey, pasta, and beverages with warm flavours and family-friendly meals in Karachi.">
+<meta name="keywords" content="Nimm's Kitchen, Karachi food, homemade food, khowsey, noodles, alfredo pasta, food delivery, family meals">
+<meta name="author" content="Nimm's Kitchen">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#e0736b">
+<meta property="og:title" content="Nimm's Kitchen | Fresh Homemade Comfort Food">
+<meta property="og:description" content="Fresh homemade comfort food made with love, flavour, and honest service in Karachi.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./assets/images/food-1.jpg">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<title>Nimm's Kitchen | Fresh Homemade Comfort Food</title>
+<link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-shell">
+    <a class="logo" href="#top">Nimm's Kitchen</a>
+    <div class="nav-actions">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="links" id="navMenu">
+        <a href="#menu">Menu</a>
+        <a href="#prices">Prices</a>
+        <a href="#photos">Photos</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#order">Order</a>
+      </div>
+      <button class="cart-button" id="cartButton" type="button" aria-label="Open cart">
+        Cart <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap" id="top">
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">Fresh • Homemade • Trusted</div>
+      <h1>Comfort food that feels like home.</h1>
+      <p>From creamy Alfredo to fiery khowsey and comforting noodles, Nimm's Kitchen serves warm, homemade dishes packed with flavour, care, and honest pricing.</p>
+
+      <div class="hero-meta">
+        <span class="meta-pill"><svg class="icon" data-lucide="star"></svg><span>4.9/5 customer love</span></span>
+        <span class="meta-pill"><svg class="icon" data-lucide="chef-hat"></svg><span>Handmade daily</span></span>
+        <span class="meta-pill"><svg class="icon" data-lucide="truck"></svg><span>Freshly packed</span></span>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn" href="#menu">See the menu</a>
+        <a class="btn alt" href="#order">Order now</a>
+      </div>
+
+      <div class="trust-points">
+        <div><strong>1,200+</strong><span>happy cravings</span></div>
+        <div><strong>15 min</strong><span>fresh prep</span></div>
+        <div><strong>100%</strong><span>home-style taste</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <img src="./assets/images/food-1.jpg" alt="food-1">
+      <div class="hero-badge">Most loved • Khowsey</div>
+    </div>
+  </section>
+
+  <section class="block" id="photos">
+    <div class="section-header">
+      <svg class="icon section-icon" data-lucide="images"></svg>
+      <h2>Our dishes</h2>
+    </div>
+    <p class="sub">Swipe through our favourite plates</p>
+    <div class="track-wrap" id="ptrack-wrap">
+      <div class="track" id="ptrack">
+        <a class="ph photo-link" href="./gallery.html?item=food-2.jpg"><img src="./assets/images/food-2.jpg" alt="food-2" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-3.jpg"><img src="./assets/images/food-3.jpg" alt="food-3" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-4.jpg"><img src="./assets/images/food-4.jpg" alt="food-4" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-5.jpg"><img src="./assets/images/food-5.jpg" alt="food-5" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-6.jpg"><img src="./assets/images/food-6.jpg" alt="food-6" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-7.jpg"><img src="./assets/images/food-7.jpg" alt="food-7" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-8.jpg"><img src="./assets/images/food-8.jpg" alt="food-8" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-9.jpg"><img src="./assets/images/food-9.jpg" alt="food-9" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-10.jpg"><img src="./assets/images/food-10.jpg" alt="food-10" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-11.jpg"><img src="./assets/images/food-11.jpg" alt="food-11" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-12.jpg"><img src="./assets/images/food-12.jpg" alt="food-12" draggable="false"></a>
+        <a class="ph photo-link" href="./gallery.html?item=food-13.jpg"><img src="./assets/images/food-13.jpg" alt="food-13" draggable="false"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="menu">
+    <div class="section-header">
+      <svg class="icon section-icon" data-lucide="utensils-crossed"></svg>
+      <h2>Menu</h2>
+    </div>
+    <div class="onions" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <p class="sub">Choose your protein, toppings and spice level. <span class="badge">PROTEIN</span> marks protein options.</p>
+    <div class="menu">
+
+      <div class="card khowsey"><span class="dd tr">🌶️</span><span class="dd bl">🌿</span>
+        <h3>🍗 Khowsey <span class="price-tag">from Rs 500</span></h3>
+        <h4>Pick your protein</h4>
+        <ul>
+          <li>Chicken <span class="tag">PROTEIN</span></li>
+          <li>Extra chicken <span class="price">Rs 100</span></li>
+        </ul>
+        <h4>Chips</h4>
+        <ul>
+          <li>Slims <span class="price">Rs 50</span></li>
+          <li>Lays <span class="price">Rs 50</span></li>
+          <li>Spicy chips</li>
+        </ul>
+        <h4>Toppings (included)</h4>
+        <ul>
+          <li>Green onions</li><li>Cilantro</li><li>Lime</li><li>Crispy onions</li><li>Chilli oil</li>
+        </ul>
+        <div class="variant-options">
+          <button class="variant-option active" type="button" data-name="Khowsey 200g" data-price="500">
+            <span>200 g</span>
+            <strong>Rs 500</strong>
+            <small>Serves 5 to 6</small>
+          </button>
+          <button class="variant-option" type="button" data-name="Khowsey 700g" data-price="800">
+            <span>700 g</span>
+            <strong>Rs 800</strong>
+            <small>Serves 10</small>
+          </button>
+        </div>
+        <div class="card-actions">
+          <button class="add-cart-btn" type="button" data-name="Khowsey" data-price="500">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card noodles"><span class="dd tr">🥚</span><span class="dd bl">🌿</span>
+        <h3>🍜 Noodles <span class="price-tag">Rs 250 a bowl</span></h3>
+        <h4>Pick your protein</h4>
+        <ul>
+          <li>Chicken: boiled or seasoned <span class="tag">PROTEIN</span></li>
+          <li>Egg: fried or boiled <span class="tag">PROTEIN</span></li>
+          <li>Extra egg <span class="price">Rs 45</span></li>
+        </ul>
+        <h4>Toppings</h4>
+        <ul>
+          <li>Green onions</li><li>Corns</li><li>Carrots</li>
+        </ul>
+        <h4>Spice level</h4>
+        <ul>
+          <li>Mild</li><li>Average</li><li>Hot</li></ul><div class="spice-meter"><span>Spice meter</span><div class="meter-bar"><b>Mild 🌶️</b><b>Average 🌶️🌶️</b><b>Hot 🌶️🌶️🌶️</b></div></div><ul>
+        </ul>
+        <h4>Add-on</h4>
+        <ul>
+          <li>Chips <span class="price">Rs 50</span></li>
+        </ul>
+        <div class="variant-options">
+          <button class="variant-option active" type="button" data-name="Noodles bowl" data-price="250">
+            <span>Classic bowl</span>
+            <strong>Rs 250</strong>
+          </button>
+          <button class="variant-option" type="button" data-name="Noodles + chips" data-price="300">
+            <span>With chips</span>
+            <strong>Rs 300</strong>
+          </button>
+        </div>
+        <div class="card-actions">
+          <button class="add-cart-btn" type="button" data-name="Noodles bowl" data-price="250">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card pasta wide"><span class="dd tr">🧀</span><span class="dd bl">✿</span>
+        <h3>🍝 Alfredo Pasta <span class="price-tag">from Rs 300</span></h3>
+        <div class="menu inner-menu">
+          <div>
+            <h4>Sauce style</h4>
+            <ul><li>Saucy</li><li>Creamy</li></ul>
+            <h4>Add-ons</h4>
+            <div class="addon-selector">
+              <button class="variant-option addon-option active" type="button" data-name="Alfredo Pasta" data-price="300">
+                <span>No add-on</span>
+                <strong>Rs 0</strong>
+              </button>
+              <button class="variant-option addon-option" type="button" data-name="Alfredo Pasta + Spicy chips" data-price="350">
+                <span>Spicy chips</span>
+                <strong>Rs 50</strong>
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="variant-options">
+              <button class="variant-option active size-option" type="button" data-name="Alfredo pasta 200g" data-price="300">
+                <span>200 g</span>
+                <strong>Rs 300</strong>
+                <small>2 chicken fillets</small>
+              </button>
+              <button class="variant-option size-option" type="button" data-name="Alfredo pasta 700g" data-price="900">
+                <span>700 g</span>
+                <strong>Rs 900</strong>
+                <small>2 chicken fillets</small>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="add-cart-btn" type="button" data-name="Alfredo pasta 200g" data-price="300">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card bev wide" id="prices">
+        <h3>🥤 Beverages</h3>
+        <ul>
+          <li>Cold coffee <span class="price">Rs 165</span></li>
+          <li>Cold drink can <span class="price">Rs 125</span></li>
+        </ul>
+        <div class="variant-options beverages-options">
+          <button class="variant-option active" type="button" data-name="Cold coffee" data-price="165">
+            <span>Cold coffee</span>
+            <strong>Rs 165</strong>
+          </button>
+          <button class="variant-option" type="button" data-name="Cold drink can" data-price="125">
+            <span>Cold drink can</span>
+            <strong>Rs 125</strong>
+          </button>
+        </div>
+        <div class="card-actions">
+          <button class="add-cart-btn" type="button" data-name="Cold coffee" data-price="165">Add to cart</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="block" id="reviews">
+    <div class="section-header">
+      <svg class="icon section-icon" data-lucide="message-square-heart"></svg>
+      <h2>Customer reviews</h2>
+    </div>
+    <p class="sub">What our customers say</p>
+    <div class="stack" id="stack">
+      <div class="review rcard p0"><div class="stars">★★★★★</div><p>Khowsey was amazing! The chips and chilli oil were perfect, and the 700 g pack was enough for the whole family.</p><strong>Ayesha K.</strong><small>Karachi</small></div>
+      <div class="review rcard p1"><div class="stars">★★★★★</div><p>The creamy Alfredo pasta with two chicken fillets was so good. Packed well and still hot when it arrived.</p><strong>Hassan R.</strong><small>Karachi</small></div>
+      <div class="review rcard p2"><div class="stars">★★★★☆</div><p>Noodles with a fried egg were delicious. I chose the Hot spice level and it was just right for me.</p><strong>Sana M.</strong><small>Karachi</small></div>
+      <div class="review rcard p3"><div class="stars">★★★★★</div><p>Friendly service and tasty food. The cold coffee is a must-try, and the slideshow of dishes made choosing easy.</p><strong>Bilal A.</strong><small>Karachi</small></div>
+    </div>
+  </section>
+
+  <section class="block" id="more">
+    <div class="section-header">
+      <svg class="icon section-icon" data-lucide="sparkles"></svg>
+      <h2>More from Nimm's Kitchen</h2>
+    </div>
+    <p class="sub">Coming soon</p>
+    <div class="addon-grid">
+      <div class="addon"><div class="addon-icon"><svg class="icon" data-lucide="party-popper"></svg></div><h3>Party Trays</h3><p>Big orders for birthdays and family gatherings.</p><span class="soon">Coming soon</span></div>
+      <div class="addon"><div class="addon-icon"><svg class="icon" data-lucide="calendar-range"></svg></div><h3>Weekly Specials</h3><p>A new special dish every week.</p><span class="soon">Coming soon</span></div>
+      <div class="addon"><div class="addon-icon"><svg class="icon" data-lucide="gift"></svg></div><h3>Gift Boxes</h3><p>Treat a friend with a Nimm's Kitchen box.</p><span class="soon">Coming soon</span></div>
+      <div class="addon"><div class="addon-icon"><svg class="icon" data-lucide="star"></svg></div><h3>Regulars Club</h3><p>Rewards for our loyal customers.</p><span class="soon">Coming soon</span></div>
+    </div>
+  </section>
+
+  <section class="order" id="order">
+    <div class="section-header center-header">
+      <svg class="icon section-icon" data-lucide="shopping-bag"></svg>
+      <h2>Order with love</h2>
+    </div>
+    <p>Send us your order details and we'll get back to you.</p>
+    <form class="order-form" id="orderForm" novalidate>
+      <div class="form-grid">
+        <div><label for="o-name">Your name</label><input id="o-name" name="name" required></div>
+        <div><label for="o-phone">Phone number</label><input id="o-phone" name="phone" type="tel" required></div>
+      </div>
+      <label for="o-dish">Dish</label>
+      <select id="o-dish" name="dish">
+        <option>Khowsey</option>
+        <option>Noodles</option>
+        <option>Alfredo Pasta</option>
+        <option>Beverages</option>
+      </select>
+      <label for="o-details">Order details (quantity, protein, spice level, extras)</label>
+      <textarea id="o-details" name="details" required></textarea>
+      <input type="text" name="website" aria-label="Website" class="honeypot" tabindex="-1" autocomplete="off">
+      <button type="submit">Send order</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Nimm's Kitchen</div>
+        <small>Karachi, Pakistan</small>
+        <p>Fresh homemade comfort food made with love, flavour, and honest service.</p>
+      </div>
+
+      <div>
+        <h4><svg class="icon footer-title-icon" data-lucide="link"></svg>Quick Links</h4>
+        <ul>
+          <li><a href="#menu"><svg class="icon footer-icon" data-lucide="utensils-crossed"></svg>Menu</a></li>
+          <li><a href="./gallery.html"><svg class="icon footer-icon" data-lucide="images"></svg>Gallery</a></li>
+          <li><a href="#reviews"><svg class="icon footer-icon" data-lucide="message-square-heart"></svg>Reviews</a></li>
+          <li><a href="#order"><svg class="icon footer-icon" data-lucide="shopping-bag"></svg>Order</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4><svg class="icon footer-title-icon" data-lucide="phone-call"></svg>Contact</h4>
+        <ul>
+          <li><svg class="icon footer-icon" data-lucide="map-pin"></svg>Karachi, Pakistan</li>
+          <li><a href="#order"><svg class="icon footer-icon" data-lucide="shopping-bag"></svg>Order through form</a></li>
+          <li><svg class="icon footer-icon" data-lucide="shield-check"></svg>Secure order requests</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li><svg class="icon footer-icon" data-lucide="clock-3"></svg>Mon - Sat: 12:00 PM - 11:00 PM</li>
+          <li><svg class="icon footer-icon" data-lucide="clock-3"></svg>Sunday: 1:00 PM - 10:00 PM</li>
+          <li><svg class="icon footer-icon" data-lucide="sparkles"></svg>Freshly made daily</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Nimm's Kitchen. All rights reserved.</div>
+  </footer>
+</div>
+
+<div class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="cart-header">
+    <h3>Your order</h3>
+    <button type="button" id="cartClose" class="cart-close" aria-label="Close cart">Close</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="empty-cart">Your cart is empty. Add your favourites to get started.</p>
+  </div>
+  <div class="cart-summary">
+    <div class="cart-total-row">
+      <span>Total</span>
+      <strong id="cartTotal">Rs 0</strong>
+    </div>
+    <button type="button" id="checkoutButton" class="checkout-button">Proceed to order</button>
+  </div>
+</div>
+
+<div class="lb" id="lb"><button class="lb-close" id="lb-close" aria-label="Close">&times;</button><div class="lb-inner" id="lb-inner"><img id="lb-img" alt="Dish photo"></div></div>
+
+<div class="thankyou-modal" id="thankYouModal" aria-live="polite" aria-hidden="true">
+  <div class="thankyou-dialog" role="dialog" aria-modal="true" aria-labelledby="thankYouTitle">
+    <div class="thankyou-icon">✓</div>
+    <h3 id="thankYouTitle">Thank you!</h3>
+    <p>Your order request has been received. We will review it soon and contact you to confirm the details.</p>
+    <button type="button" id="closeThankYou">Close</button>
+  </div>
+</div>
+
+<script src="https://unpkg.com/lucide@0.468.0"></script>
+<script src="./script.js" defer></script>
+</body>
+</html>
